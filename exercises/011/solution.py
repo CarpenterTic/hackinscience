@@ -4,4 +4,6 @@ Created on Mon Sep 21 14:06:33 2015
 
 @author: Ars
 """
-print(100*"Hello World\n")
+for i in range(100):
+    print("Hello World")
+    
