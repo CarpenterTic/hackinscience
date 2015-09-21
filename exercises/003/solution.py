@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Éditeur de Spyder
+Created on Mon Sep 21 09:22:49 2015
 
-Ceci est un script temporaire.
+@author: Ars
 """
 
-print("Hello world")
+ 
+print("Hello World")
