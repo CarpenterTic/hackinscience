@@ -5,7 +5,7 @@ Created on Tue Sep 22 14:12:53 2015
 @author: Ars
 """
 import string
-alphabet1 = string.ascii_lowercase
+alphabet = string.ascii_lowercase
 for caract1 in alphabet:
     for caract2 in alphabet:
         if caract1 != caract2:
