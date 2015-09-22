@@ -6,5 +6,5 @@ Created on Tue Sep 22 10:02:23 2015
 """
 
 import time
-print("today is", time.strftime('%Y-%m-%d'),
+print("Today is", time.strftime('%Y-%m-%d'),
       " and it is", time.strftime('%H:%M:%S'))
