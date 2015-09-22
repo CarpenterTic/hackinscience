@@ -8,4 +8,4 @@ import string
 alphabet = string.ascii_lowercase
 for caract1 in alphabet:
         for caract2 in alphabet:
-            print(caract1, caract2)
+            print(caract1 + caract2)
