@@ -12,10 +12,10 @@ def select_student(my_class, mark):
     for student in my_class:
         if mark >= student[1]:
             accepted.append(student)
-        if mark < student[1]:
+        elif mark < student[1]:
             refused.append(student)
 
-    sorted_asc = sorted(accepted, key=lambda score: score[1])
-    sorted_desc = sorted(refused, key=lambda score: score[1], reverse=True)
+    sorted_desc = sorted(accepted, key=lambda score: score[1], reverse=True)
+    sorted_asc = sorted(refused, key=lambda score: score[1])
     return {"Accepted": sorted_desc,
             "Refused": sorted_asc}
